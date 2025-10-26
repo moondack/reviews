@@ -1,4 +1,7 @@
-
+Паша, [26.10.2025 18:37]
+body {
+    font-family: "Inter", sans-serif
+}
 .top {
     display: flex;
     justify-content: space-between;
@@ -25,6 +28,36 @@
     text-align: center;
     margin-bottom: 20px;
 }
+.otz {
+    position: relative;
+    width: 30%;
+    line-height: 70%;
+    letter-spacing: 12px;
+}
+.otz_1 {
+    background-image: url('css/png/Group\ 35.png');
+    background-position: center;
+}
+.otz_2 {
+    background-image: url('css/png/Group\ 36.png');
+    background-position: center;
+}
+.otz_3 {
+    background-image: url('css/png/Group\ 37.png');
+    background-position: center;
+}
+.otz p {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    text-align: center;
+    transform: translate(-18%, -20%);
+    font-size: 20px;
+}
+
+.medium3 a {
+        text-align: center;
+}
 .medium img {
     max-width: 100%;
     height: auto;
@@ -44,112 +77,150 @@
     text-decoration: none;
     color: black;
 }
-@media (max-width: 1200px) and (min-width: 1025px) {
+@media (max-width: 1024px) {
     .top {
-        margin-right: 200px;
-        letter-spacing: 15px;
-    }
-    .up {
-        font-size: 32px;
-        letter-spacing: 40px;
-    }
-    .medium img {
-        max-width: 30%;
-    }
-}
-@media (max-width: 1024px) and (min-width: 769px) {
-    .top {
-        margin-right: 100px;
-        letter-spacing: 15px;
         font-size: 18px;
+        letter-spacing: 15px;
+        margin-right: 150px;
+        margin: 20px;
     }
     .up {
         font-size: 28px;
         letter-spacing: 30px;
+        margin-bottom: 15px;
     }
-    .medium img {
-        max-width: 30%;
+    .medium {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .otz p {
+        font-size: 18px;
+        top: 32%;
+        left: 18%;
     }
     .down {
         font-size: 18px;
+        margin-top: 40px;
     }
 }
-@media (max-width: 768px) and (min-width: 577px) {
+@media (max-width: 768px) {
     .top {
         font-size: 16px;
         letter-spacing: 10px;
-        margin: 25px 20px;
-        margin-right: 0;
-    }
-    .up {
-        font-size: 24px;
-        letter-spacing: 20px;
-        margin-bottom: 25px;
-    }
-    .medium {
-        flex-wrap: wrap;
-        gap: 15px;
-        padding: 0 10px;
-    }
-    .medium img {
-        max-width: 45%;
-    }
-    .down {
-        font-size: 16px;
-        margin-top: 35px;
-    }
-}
-@media (max-width: 576px) and (min-width: 426px) {
-    .top {
-        font-size: 14px;
-        letter-spacing: 8px;
-        margin: 20px 15px;
+        margin-right: 50px;
+        margin: 15px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
     }
     .up {
         font-size: 20px;
         letter-spacing: 15px;
-        margin-bottom: 20px;
-        padding: 0 10px;
+        margin-bottom: 10px;
+        flex-wrap: wrap;
     }
     .medium {
+        font-size: 20px;
+        margin-bottom: 10px;
         flex-direction: column;
         align-items: center;
         gap: 15px;
-        padding: 0 15px;
     }
-    .medium img {
-        max-width: 100%;
+    .otz {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+    .otz p {
+        font-size: 16px;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        line-height: 1.2;
     }
     .down {
-        font-size: 14px;
+        font-size: 16px;
         margin-top: 30px;
-        padding: 0 10px;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
     }
 }
-@media (max-width: 425px) {
+@media (max-width: 480px) {
     .top {
-        font-size: 12px;
+        font-size: 14px;
         letter-spacing: 5px;
-        margin: 15px 10px;
+        margin-right: 20px;
     }
     .up {
         font-size: 18px;
         letter-spacing: 10px;
-        margin-bottom: 15px;
-        padding: 0 5px;
     }
     .medium {
+        font-size: 18px;
+    }
+    .otz p {
+        font-size: 14px;
+        top: 35%;
+    }
+    .down {
+        font-size: 14px;
+    }
+}
+@media (min-width: 1440px) {
+    .top {
+        margin-right: 400px;
+    }
+    .otz {
+        width: 25%;
+    }
+}
+@media (max-width: 320px) {
+    .top {
+        font-size: 12px;
+        letter-spacing: 3px;
+        margin-right: 10px;
+        margin: 10px;
         flex-direction: column;
         align-items: center;
-        gap: 10px;
-        padding: 0 10px;
+        gap: 8px;
     }
-    .medium img {
-        max-width: 100%;
+    .up {
+        font-size: 16px;
+        letter-spacing: 8px;
+        margin-bottom: 8px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .medium {
+        font-size: 16px;
+        margin-bottom: 8px;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+    .otz {
+        width: 90%;
+        margin-bottom: 12px;
+        line-height: 60%;
+    }
+    .otz p {
+        font-size: 12px;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        line-height: 0.9;
+        letter-spacing: 8px;
     }
     .down {
         font-size: 12px;
-        margin-top: 25px;
-        padding: 0 5px;
+
+Паша, [26.10.2025 18:37]
+margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+    .medium img {
+        max-width: 95%;
     }
 }
